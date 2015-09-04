@@ -2,7 +2,7 @@
 @using Orchard.Layouts.Helpers
 @{
     var tagBuilder = TagBuilderExtensions.AddCommonElementAttributes(new OrchardTagBuilder("div"), Model);
-    tagBuilder.AddCssClass("container-fluid");
+    tagBuilder.AddCssClass("container-fluid"); // find some way to define if fluid or not, from theme settings?? or add this through admin ui (maybe add default of container if fluid not present)
 }
 @tagBuilder.StartElement
 @DisplayChildren(Model)
