@@ -5,12 +5,16 @@ namespace Orchard.Cw.Bootstrap {
         public void BuildManifests(ResourceManifestBuilder builder) {
             var manifest = builder.Add();
 
-            manifest.DefineScript("Bootstrap.Base.Script").SetUrl("assets/js/bootstrap.min.js", "assets/js/bootstrap.js")
+            manifest.DefineScript("Bootstrap.Base.Script")
+                .SetUrl("~/Themes/Orchard.Cw.Bootstrap/assets/js/bootstrap.min.js",
+                        "~/Themes/Orchard.Cw.Bootstrap/assets/js/bootstrap.js")
                 .SetVersion("3.3.5")
                 .SetDependencies("jQuery");
-      
 
-            manifest.DefineStyle("Bootstrap.Base.Style").SetUrl("assets/css/bootstrap.min.css", "assets/css/bootstrap.css");
+
+            manifest.DefineStyle("Bootstrap.Base.Style")
+                .SetUrl("~/Themes/Orchard.Cw.Bootstrap/assets/css/bootstrap.min.css", 
+                        "~/Themes/Orchard.Cw.Bootstrap/assets/css/bootstrap.css");
         }
     }
 }
