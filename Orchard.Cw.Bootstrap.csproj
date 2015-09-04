@@ -74,6 +74,7 @@
     <Content Include="assets\css\bootstrap-theme.min.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\flavour\cw\i\cover.jpg" />
     <Content Include="assets\css\flavour\cw\m.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\js\bootstrap.js" />
