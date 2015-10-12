@@ -70,16 +70,16 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\bootstrap-theme.css" />
-    <Content Include="assets\css\bootstrap-theme.min.css" />
-    <Content Include="assets\css\bootstrap.css" />
-    <Content Include="assets\css\bootstrap.min.css" />
-    <Content Include="assets\css\flavour\cw\i\cover.jpg" />
-    <Content Include="assets\css\flavour\cw\m.css" />
-    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="assets\js\bootstrap.js" />
-    <Content Include="assets\js\bootstrap.min.js" />
-    <Content Include="assets\js\npm.js" />
+    <Content Include="assets\core\css\bootstrap-theme.css" />
+    <Content Include="assets\core\css\bootstrap-theme.min.css" />
+    <Content Include="assets\core\css\bootstrap.css" />
+    <Content Include="assets\core\css\bootstrap.min.css" />
+    <Content Include="assets\flavour\cw\i\cover.jpg" />
+    <Content Include="assets\flavour\cw\m.css" />
+    <Content Include="assets\core\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\core\js\bootstrap.js" />
+    <Content Include="assets\core\js\bootstrap.min.js" />
+    <Content Include="assets\core\js\npm.js" />
     <Content Include="Theme.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -97,15 +97,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\bootstrap-theme.css.map" />
-    <Content Include="assets\css\bootstrap.css.map" />
-    <Content Include="assets\css\Web.config" />
-    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="assets\fonts\Web.config" />
-    <Content Include="assets\js\Web.config" />
+    <Content Include="assets\core\css\bootstrap-theme.css.map" />
+    <Content Include="assets\core\css\bootstrap.css.map" />
+    <Content Include="assets\core\css\Web.config" />
+    <Content Include="assets\core\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\core\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\core\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\core\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\core\fonts\Web.config" />
+    <Content Include="assets\core\js\Web.config" />
     <Content Include="Views\BadgeOfHonor.cshtml" />
     <Content Include="Views\Branding.cshtml" />
     <Content Include="Views\Layout.cshtml" />
