@@ -131,6 +131,15 @@
   <ItemGroup>
     <Content Include="Views\Elements.Column.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\flavour\cw\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Content-BlogPost.Summary.cshtml" />
+    <Content Include="Views\Parts.Common.Body.Summary-BlogPost.cshtml" />
+    <Content Include="Views\Parts.Common.Metadata.Summary-BlogPost.cshtml" />
+    <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
