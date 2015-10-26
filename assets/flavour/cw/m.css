@@ -1,13 +1,13 @@
-﻿hr {
-    max-width: 50px;
-    border-color: #019875;
-    border-width: 3px;
-}
-
-/* maybe we could only include this on the homepage? */
+﻿/* maybe we could only include this on the homepage? */
 html, body {
     width: 100%;
     height: 100%;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #019875;
+    border-width: 3px;
 }
 
 header.full {
@@ -42,7 +42,7 @@ header.full .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
-heade.fullr .header-content .header-content-inner p {
+header.full .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
@@ -79,4 +79,13 @@ heade.fullr .header-content .header-content-inner p {
 
 h3 {
     color: #019875;
+}
+
+.blog-post.summary {
+    min-height: 220px;
+}
+
+.blog-post.summary a {
+    color: inherit;
+    text-decoration: none;
 }

@@ -1,8 +1,14 @@
 ﻿<Placement>
   <Match Path="/">
     <Place Parts_Common_Metadata="-"/>
-   <Place Parts_Title="-"/>
+    <Place Parts_Title="-"/>
   </Match>
+  <Match DisplayType="Summary">
+    <Place Fields_MediaLibraryPicker_Summary="BlogMedia:1"/>
+    <Place Fields_Enumeration="-"/>
+    <Place Fields_Input-FeaturedThumbnailCaption="-" />
+    <Place Parts_Common_Metadata_Summary="Header:6"/>
+ </Match>
   <!-- Customize where the shapes are rendered -->
 
   <!-- 

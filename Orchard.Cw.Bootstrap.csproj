@@ -140,6 +140,12 @@
     <Content Include="Views\Parts.Common.Metadata.Summary-BlogPost.cshtml" />
     <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Fields.MediaLibraryPicker.Summary-BlogPost-BlogPostPart-FeaturedThumbnail.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Parts.Tags.ShowTags-BlogPost.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

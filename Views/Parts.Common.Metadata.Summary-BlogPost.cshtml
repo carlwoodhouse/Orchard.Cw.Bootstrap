@@ -1,1 +1,5 @@
-﻿<span class="badge">Posted: @Display.PublishedState(createdDateTimeUtc: Model.ContentPart.CreatedUtc, publisheddateTimeUtc: Model.ContentPart.PublishedUtc)</span>
+﻿@{
+    DateTime date = Model.ContentPart.PublishedUtc ?? Model.ContentPart.CreatedUtc;
+}
+
+<span class="label label-success">Posted: @date.ToShortDateString()</span>

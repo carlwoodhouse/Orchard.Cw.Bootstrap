@@ -1,0 +1,17 @@
+﻿@using Orchard.Core.Contents
+@using Orchard.MediaLibrary.Fields
+@using Orchard.Utility.Extensions;
+
+@{
+    var field = (MediaLibraryPickerField) Model.ContentField;
+    string name = field.DisplayName;
+    var mediaParts = field.MediaParts;
+}
+@if (mediaParts.Any()) {
+<div class="col-sm-4">
+    @foreach (var contentItem in mediaParts) {
+        <img class="img-rounded" src="@Display.ResizeMediaUrl(Width: 200, Height: 200, Mode: "crop", Alignment: "middlecenter", Path: contentItem.MediaUrl)" />
+    }
+</div>
+}
+
