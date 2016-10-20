@@ -1,7 +1,7 @@
 ﻿/* maybe we could only include this on the homepage? */
 html, body {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 hr {
@@ -16,7 +16,7 @@ header.full {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(~/Assets/images/cover.jpg);
+    background-image: url(../Assets/images/cover.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
