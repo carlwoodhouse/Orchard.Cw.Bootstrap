@@ -95,16 +95,11 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\core\css\bootstrap-theme.css" />
-    <Content Include="assets\core\css\bootstrap-theme.min.css" />
-    <Content Include="assets\core\css\bootstrap.css" />
-    <Content Include="assets\core\css\bootstrap.min.css" />
-    <Content Include="assets\flavour\cw\i\cover.jpg" />
-    <Content Include="assets\flavour\cw\m.css" />
-    <Content Include="assets\core\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="assets\core\js\bootstrap.js" />
-    <Content Include="assets\core\js\bootstrap.min.js" />
-    <Content Include="assets\core\js\npm.js" />
+    <Content Include="Assets\images\cover-alt.jpg" />
+    <Content Include="Assets\images\cover.jpg" />
+    <Content Include="Assets\cw.css" />
+    <Content Include="Styles\cw.css" />
+    <Content Include="Styles\cw.min.css" />
     <Content Include="Theme.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -122,57 +117,58 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\core\css\bootstrap-theme.css.map" />
-    <Content Include="assets\core\css\bootstrap.css.map" />
-    <Content Include="assets\core\css\Web.config" />
-    <Content Include="assets\core\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="assets\core\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="assets\core\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="assets\core\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="assets\core\fonts\Web.config" />
-    <Content Include="assets\core\js\Web.config" />
-    <Content Include="Views\BadgeOfHonor.cshtml" />
-    <Content Include="Views\Branding.cshtml" />
-    <Content Include="Views\Layout.cshtml" />
-    <Content Include="Views\Pager.cshtml" />
-    <Content Include="Views\Pager.First.cshtml" />
-    <Content Include="Views\Pager.Last.cshtml" />
+    <Content Include="ViewsArchived\BadgeOfHonor.cshtml" />
+    <Content Include="ViewsArchived\Branding.cshtml" />
+    <Content Include="ViewsArchived\Layout.cshtml" />
+    <Content Include="ViewsArchived\Pager.cshtml" />
+    <Content Include="ViewsArchived\Pager.First.cshtml" />
+    <Content Include="ViewsArchived\Pager.Last.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Providers\ThemeShapeProvider.cs" />
     <Compile Include="ResourceManifest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Placement.info" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Document.cshtml" />
+    <Content Include="ViewsArchived\Document.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Parts.Layout.cshtml" />
+    <Content Include="ViewsArchived\Parts.Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Elements.Grid.cshtml" />
+    <Content Include="ViewsArchived\Elements.Grid.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Elements.Column.cshtml" />
+    <Content Include="ViewsArchived\Elements.Column.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\flavour\cw\Web.config" />
+    <Content Include="ViewsArchived\Content-BlogPost.Summary.cshtml" />
+    <Content Include="ViewsArchived\Parts.Common.Body.Summary-BlogPost.cshtml" />
+    <Content Include="ViewsArchived\Parts.Common.Metadata.Summary-BlogPost.cshtml" />
+    <Content Include="ViewsArchived\Parts.Title.Summary-BlogPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Content-BlogPost.Summary.cshtml" />
-    <Content Include="Views\Parts.Common.Body.Summary-BlogPost.cshtml" />
-    <Content Include="Views\Parts.Common.Metadata.Summary-BlogPost.cshtml" />
-    <Content Include="Views\Parts.Title.Summary-BlogPost.cshtml" />
+    <Content Include="ViewsArchived\Fields.MediaLibraryPicker.Summary-BlogPost-BlogPostPart-FeaturedThumbnail.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Fields.MediaLibraryPicker.Summary-BlogPost-BlogPostPart-FeaturedThumbnail.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Parts.Tags.ShowTags-BlogPost.cshtml" />
+    <Content Include="ViewsArchived\Parts.Tags.ShowTags-BlogPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\images\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Wrapper-Cw.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\Web.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -208,7 +204,8 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl></IISUrl>
+          <IISUrl>
+          </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://orchard.codeplex.com</CustomServerUrl>

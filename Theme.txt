@@ -1,6 +1,7 @@
 ﻿Name: Orchard.Cw.Bootstrap
 Author: Carl Woodhouse
-Description: Basic orchard bootstrap theme
+Description: carlwoodhouse.com customisations of thebootstrapmachine
+BaseTheme: TheBootstrapMachine
 Version: 1.0
 Tags: Awesome
 Website: http://carlwoodhouse.com

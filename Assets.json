@@ -1,0 +1,7 @@
+﻿[
+  {
+    "inputs": [ "Assets/cw.css" ],
+    "output": "Styles/cw.css",
+    "generateSourceMaps":  false
+  }
+]
