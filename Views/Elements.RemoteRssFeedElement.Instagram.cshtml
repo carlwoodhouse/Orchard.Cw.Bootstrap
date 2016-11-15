@@ -1,0 +1,24 @@
+﻿@using Orchard.Cw.FeedReader.Models
+
+@{ 
+    var feed = Model.Feed.Elements("entry");
+}
+
+<ul>
+    @{ 
+        var count = 1;
+
+        foreach(var item in feed) {
+            var image = ((IEnumerable<dynamic>) item.Descendants("link")).FirstOrDefault(a => a.Attribute("rel").Value == "enclosure");
+            var url = ((IEnumerable<dynamic>)item.Descendants("link")).FirstOrDefault(a => a.Attribute("rel").Value == "alternate");
+
+            <li><img src="@image.Attribute("href").Value.Replace("/s150x150", string.Empty)" /><a href="@url.Attribute("href").Value">@item.Element("title").Value</a></li>
+            if (count == (int)Model.Element.ItemCount ) {
+                break;
+            }
+
+            count++;
+        }
+    }
+</ul>
+
