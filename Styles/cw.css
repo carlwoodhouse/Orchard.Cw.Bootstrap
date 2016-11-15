@@ -15,6 +15,13 @@ hr {
     border-width: 3px;
 }
 
+#layout-before-main {
+    width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
 header.full {
     position: relative;
     width: 100%;
